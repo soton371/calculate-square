@@ -8,7 +8,7 @@ namespace ConsoleApp1
         {
 
             //Given the length of a side of a square, calculate and print its area..
-            int x = Convert.ToInt32(Console.ReadLine());
+            float x =float.Parse(Console.ReadLine());
             Console.WriteLine(x*x);
         }
     }
